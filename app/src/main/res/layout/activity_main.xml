@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_formulir"
+        android:id="@+id/tv_Formulir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Formulir Pendaftaran"
@@ -18,39 +18,39 @@
         android:layout_marginTop="20dp"/>
 
     <EditText
-        android:id="@+id/et_Nama_Lengkap"
+        android:id="@+id/et_NamaLengkap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nama Lengkap"
         android:textSize="15dp"
-        android:layout_below="@+id/tv_formulir"
+        android:layout_below="@+id/tv_Formulir"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
     <EditText
-        android:id="@+id/et_Nomor_Pendaftaran"
+        android:id="@+id/et_NomorPendaftaran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nomor Pendaftaran"
         android:textSize="15dp"
         android:textStyle="bold"
-        android:layout_below="@+id/et_Nama_Lengkap"/>
+        android:layout_below="@+id/et_NamaLengkap"/>
 
     <Spinner
-        android:id="@+id/sp_Jalur_pendaftaran"
+        android:id="@+id/sp_Pendaftaran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/et_Nomor_Pendaftaran"
+        android:layout_below="@+id/et_NomorPendaftaran"
         android:entries="@array/array_Jalur_Pendaftaran"/>
 
     <CheckBox
-        android:id="@+id/cb_yakin"
+        android:id="@+id/cb_Konfirmasi_dasar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Konfirmasi Pendaftaran"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/sp_Jalur_pendaftaran"
+        android:layout_below="@+id/sp_Pendaftaran"
         android:textStyle="bold"/>
 
     <Button
@@ -61,7 +61,7 @@
         android:textStyle="bold"
         android:textSize="16dp"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/cb_yakin"/>
+        android:layout_below="@+id/cb_Konfirmasi_dasar"/>
 
 
 
