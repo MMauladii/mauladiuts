@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                    Intent daftar = new Intent(MainActivity.this,SecondMainActivity.class);
                    daftar.putExtra("xnama", NamaLengkap);
-                   daftar.putExtra("Xnomor", NomorPendaftaran);
+                   daftar.putExtra("xnomor", NomorPendaftaran);
                    daftar.putExtra("xconfirm",konfirmasi);
                    daftar.putExtra("xpendaftaran", pendaftaran);
                    startActivity(daftar);
